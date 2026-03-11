@@ -2,14 +2,19 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET",
-  messagingSenderId: "XXXX",
-  appId: "XXXX"
+  apiKey: "AIzaSyDsVuaDVqXmP6ncA0Gr-bO_lzNfsYTfLvE",
+  authDomain: "pavevision-f254d.firebaseapp.com",
+  projectId: "pavevision-f254d",
+  storageBucket: "pavevision-f254d.firebasestorage.app",
+  messagingSenderId: "824175742075",
+  appId: "1:824175742075:web:fc39e0bbd1669fd1b226de",
+  measurementId: "G-7JRLTXD8LG"
 };
 
 const app = initializeApp(firebaseConfig);
 
-export const db = getFirestore(app);
+// Create Firestore database instance
+const db = getFirestore(app);
+
+// Export it so other files can use it
+export { db };
