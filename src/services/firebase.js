@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsVuaDVqXmP6ncA0Gr-bO_lzNfsYTfLvE",
+  apiKey: "YOUR_API_KEY",
   authDomain: "pavevision-f254d.firebaseapp.com",
   projectId: "pavevision-f254d",
   storageBucket: "pavevision-f254d.firebasestorage.app",
