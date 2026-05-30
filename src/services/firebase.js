@@ -3,13 +3,14 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
-  authDomain: "pavevision-f254d.firebaseapp.com",
-  projectId: "pavevision-f254d",
-  storageBucket: "pavevision-f254d.firebasestorage.app",
-  messagingSenderId: "824175742075",
-  appId: "1:824175742075:web:fc39e0bbd1669fd1b226de",
-  measurementId: "G-7JRLTXD8LG"
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "",
+  measurementId: ""
 };
+
 
 const app = initializeApp(firebaseConfig);
 
